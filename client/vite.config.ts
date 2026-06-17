@@ -11,6 +11,7 @@ export default defineConfig({
   },
   server: {
     port: 5173,
+    allowedHosts: ['5174-ilh54k9js4xy25d1fok8a-ba5c9799.us1.manus.computer', 'localhost'],
     proxy: {
       '/api': {
         target: 'http://localhost:3000',
@@ -22,4 +23,4 @@ export default defineConfig({
     outDir: 'dist',
     sourcemap: false,
   },
-})
+  base: '/cleaning-supplies/'})

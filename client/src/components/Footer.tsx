@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Facebook, Twitter, Instagram, Mail, Phone, MapPin } from 'lucide-react'
+import { Mail, Phone, MapPin, Share2, Heart, MessageCircle } from 'lucide-react'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -16,9 +16,9 @@ export default function Footer() {
             </div>
             <p className="text-sm mb-4">Premium cleaning supplies delivered to your doorstep.</p>
             <div className="flex gap-4">
-              <a href="#" className="hover:text-blue-400 transition"><Facebook size={20} /></a>
-              <a href="#" className="hover:text-blue-400 transition"><Twitter size={20} /></a>
-              <a href="#" className="hover:text-blue-400 transition"><Instagram size={20} /></a>
+              <a href="#" className="hover:text-blue-400 transition"><Heart size={20} /></a>
+              <a href="#" className="hover:text-blue-400 transition"><Share2 size={20} /></a>
+              <a href="#" className="hover:text-blue-400 transition"><MessageCircle size={20} /></a>
             </div>
           </div>
 
